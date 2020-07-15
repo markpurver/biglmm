@@ -1,4 +1,4 @@
-b0fdbb1d12a6906b571efebe52a7e7cf *DESCRIPTION
+82b43746ef568fdcfc4101ec61ad0871 *DESCRIPTION
 651df4a2ac363f29246083eb47b872f4 *NAMESPACE
 e542aa124713536215ae44b8cb6baba5 *NEWS
 fde16a876ae84b6a6ec526131b26c9cc *R/bigglm.R
@@ -20,4 +20,4 @@ e058d4e4129df7af2e1dd7a1c06b0e2f *man/biglm.Rd
 320f09142c7ba3e493a82b161c23a737 *man/predict.bigglm.Rd
 8a1b76c938c764a17600c9abc62abb39 *src/biglmm_init.c
 ca6264b68487597b7d7ce0143ba25b82 *src/boundedQR.c
-38ff3e34e6e3723721971c167d54640f *src/boundedQRf.f
+dc8cb3bb914498c55e06bc16a09bb957 *src/boundedQRf.f
