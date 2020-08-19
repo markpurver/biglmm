@@ -1,6 +1,6 @@
 R packages/libraries
 
-######
+==========
 
 biglmm
 
@@ -10,4 +10,4 @@ Regression for data too large to fit in memory. This package functions exactly l
 
 Author: Thomas Lumley
 
-#####
+==========
