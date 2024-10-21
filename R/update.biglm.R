@@ -1,6 +1,6 @@
 
 "update.biglm" <-
-function(object,moredata,...){
+  function(object,moredata,...){
     mf<-model.frame(object$terms, moredata)
     mm<-model.matrix(object$terms, mf)
     if (is.null(object$weights))
@@ -8,9 +8,9 @@ function(object,moredata,...){
     else
       w<-model.frame(object$weights, moredata)[[1]]
     if (!identical(object$assign, attr(mm,"assign")))
-        stop("model matrices incompatible")
+      stop("model matrices incompatible")
     if(is.null(off<-model.offset(mf))) off<-0
-    object$qr<-update.bigqr(object$qr, mm, model.response(mf)-off,w)
+    object$qr<-update(object$qr, mm, model.response(mf)-off,w)
     object$n<-object$n+NROW(mm)
     if(!is.null(object$sandwich)){
       p<-ncol(mm)
@@ -24,4 +24,3 @@ function(object,moredata,...){
     }
     object
   }
-

@@ -5,7 +5,7 @@
     fix arguably-false-positive from Fortran bounds checking, by incorporating
     the fix in the published AS274
 
-    Fortran syntax updated to be 2018-compatible
+    S3 methods added to namespace, and Fortran syntax updated to be 2018-compatible
 
 0.8 allow offsets in model formulas for both biglm and bigglm.
 
